@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, InputGroup, InputGroupAddon, Input, Button, Nav, TabContent, TabPane, Modal, ModalBody, ModalFooter, Form, FormGroup, Alert, Badge } from 'reactstrap';
-import ListLine from './listLine.js'
-import NavTab from './navTab.js'
-import InputNota from './inputNota.js'
-import InfoComponent from './infoComponent.js'
+import { Row, Col, InputGroup, InputGroupAddon, Input, Button, Nav, TabContent, TabPane, Modal, ModalBody, ModalFooter, Form, FormGroup, Alert, Badge } from 'reactstrap';
+import ListLine from './listLine.js';
+import NavTab from './navTab.js';
+import InputNota from './inputNota.js';
 
 class App extends Component {
   constructor() {

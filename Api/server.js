@@ -50,7 +50,6 @@ app.put('/list', (request, response) => {
         let list = db.getCollection('list');
         let serieAlvo = list.findOne({$loki: serieAtualizada.$loki});
         serieAlvo = serieAtualizada;
-        console.log(serieAtualizada);
 
         list.update(serieAlvo);
 
